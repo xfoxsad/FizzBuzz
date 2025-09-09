@@ -10,7 +10,7 @@ class FizzBuzz {
         doFizzBuzz();
     }
 
-    private static void doFizzBuzz() {
+    public static void doFizzBuzz() {
         int i = 1;
         while (i < 100) {
             boolean divisibleBy3 = i % 3 == 0;
